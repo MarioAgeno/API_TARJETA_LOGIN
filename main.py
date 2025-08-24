@@ -7,7 +7,7 @@ from auth import require_user
 from typing import Annotated
 from datetime import datetime, timezone
 
-app = FastAPI(title="Auth Bridge ASP.NET Identity -> FastAPI")
+app = FastAPI(title="Autentificacion Puente de ASP.NET Identity -> FastAPI")
 
 class LoginRequest(BaseModel):
     username: str
